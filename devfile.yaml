@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  generateName: java15-record-
+  generateName: java14-switch-expression-
 
 components:
 
@@ -36,5 +36,5 @@ commands:
     actions:
       - workdir: ${fileDirname}
         type: exec
-        command: set -o xtrace; javac *.java && java --enable-preview Main
+        command: set -o xtrace; javac *.java && java {file}
         component: openjdk--14-jdk
