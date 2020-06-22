@@ -38,5 +38,5 @@ commands:
     actions:
       - workdir: ${fileDirname}
         type: exec
-        command: set -o xtrace; javac *.java && java {file}
+        command: set -o xtrace; javac *.java && java ${file}
         component: openjdk--14-jdk
