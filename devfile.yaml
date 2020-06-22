@@ -1,4 +1,6 @@
 apiVersion: 1.0.0
+attributes:
+  persistVolumes: 'false'
 metadata:
   generateName: java14-switch-expression-
 
